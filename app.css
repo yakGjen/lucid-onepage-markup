@@ -4815,10 +4815,20 @@ html {
 .text_blue {
   color: #008ed6;
 }
-/*.button_blue {
-  background: #008ed6;
-  border: solid 1px #008ed6;
-}*/
+
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #008ed6;
+}
+
+::-webkit-scrollbar-track {
+  background-color: lightblue;
+}
 
 
 @media (max-width: 1100px) {
